@@ -10,6 +10,14 @@ public class Employee {
         this.nazwisko = nazwisko;
     };
 
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "imie='" + imie + '\'' +
+                ", nazwisko='" + nazwisko + '\'' +
+                '}';
+    }
+
     public String getImie() {
         return imie;
     }
